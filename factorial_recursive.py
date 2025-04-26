@@ -1,10 +1,13 @@
-def calc(n):
-    factorial_recursive()
-   
+
     
 def factorial_recursive(num):
-    if total = 
-    total = total*num
-    
+    if num == 0:
+        return 1
+    else:
+        return num*factorial_recursive(num-1)
    
-        
+ 
+
+
+   
+print(factorial_recursive(5))

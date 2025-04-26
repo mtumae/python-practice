@@ -19,6 +19,7 @@
     >The function ```reversestring()``` takes an argument ```string_input``` and loops through it in reverse while appending the corresponding elements to a new array ```reversed```. Once the loop is completed the elements of the ```reversed``` array are joined together and printed out to the console.
 
 5. **Factorial recursive** (factorial_recursive.py)
+    >The function ```factorial_recursive()``` takes an argument ```num```. With base case ```if num==0```, the function calls on itself while also reducing ```num``` by 1 on every iteration.
 
 
 
